@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>login page</title>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Pragati+Narrow&family=Teko:wght@600&family=Yatra+One&display=swap');
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: "poppins",sans-serif;
+		}
+		body{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 10ovh;
+			background: url("https://c4.wallpaperflare.com/wallpaper/615/294/495/artwork-deer-antlers-forest-wallpaper-preview.jpg");
+			background-size: cover;
+			background-position: center;
+		}
+		.mdiv{
+			width: 450px;
+			height: 350px;
+			background-color: transparent;
+			backdrop-filter: blur(20px);
+			box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+			border: 2px solid;
+			color: white;
+			margin: 200px;
+			border-radius: 20px;
+		}
+		.mdiv h1
+		{
+			font-size: 40px;
+			text-align: center;
+			padding-top: 8px;
+			font-family:font-family: 'Pragati Narrow', sans-serif;
+font-family: 'Teko', sans-serif;
+font-family: 'Yatra One', cursive; ;
+
+		}
+		.mdiv .inputbox
+		{
+			position: relative;
+			width: 50%;
+			height: 50px;
+			margin: 20px 30px;
+			position: ;
+		}
+	    input
+		{
+			width: 360px;
+			height: 20%;
+			background-color: transparent;
+			border: none;
+			outline: none;
+			border: 2px solid rgba(255, 255, 255, .1);
+			border-radius: 40px;
+			color: white;
+			padding: 20px 40px ;
+			
+		}
+		input::placeholder
+		{
+			color: white;
+		}
+		.inputbox i
+		{
+			position: absolute;
+			right: -130px;
+		    top: 20%;
+			font-size: 20px;
+			color: black;
+		}
+		.password a 
+		{
+         display: flex;
+         font-size: 14px;
+         margin: -15px 0 15px;
+         text-decoration: none;
+         color: white;
+         margin-left: 4%;
+
+		}
+		.btn
+		{
+			width: 80%;
+			height: 30px;
+			border-radius: 20px;
+			color: white;
+			align-items: center;
+			margin-left: 10%;
+			background: #8c118c;
+
+
+		}
+		.cret-acc a
+		{
+			text-decoration: ;
+			margin-left: 35%;
+			color: white;
+			font-size: 20px;
+			font-family: font-family: 'Yatra One', cursive;
+		}
+		.cret-acc:hover
+		{
+          transition: ;
+		}
+
+		
+	</style>
+	
+
+</head>
+<body>
+	<div class="mdiv">
+		<form action="">
+			<h1>LOGIN</h1>
+			<h2></h2>
+			<div class="inputbox">
+				<input type="text" placeholder="Username" required id="usr" >
+				<i class='bx bx-happy-beaming'></i>
+			</div>
+			<div class="inputbox">
+				<input type="password" placeholder="password" required id="pass"><i class='bx bxs-lock-alt' ></i>
+			</div>
+			<div class="password">
+				
+				<a href="#">forgot password?</a>
+			</div>
+			<button type="submit" name="submit" class="btn">LOGIN </button><br><br>
+			
+			<div class="cret-acc"><a href="#"> Creat Account</a></div>
+		</form>
+	</div>
+	
+
+
+</body>
+</html>
